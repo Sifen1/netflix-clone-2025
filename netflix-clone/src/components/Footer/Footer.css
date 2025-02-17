@@ -1,4 +1,4 @@
-.footer_outer_container {
+/* .footer_outer_container {
     background-color: #111;
     color: grey;
     display: flex;
@@ -7,11 +7,11 @@
   
   .footer_inner_container {
     width: 60%;
-    /* background-color: red; */
+    background-color: red;
   }
   
   .footer_icons {
-    /* background-color: blue; */
+    background-color: blue;
     width: 15%;
     display: flex;
     justify-content: space-between;
@@ -28,7 +28,7 @@
     flex-direction: column;
     justify-content: space-around;
     height: 12vh;
-    /* background-color: blue; */
+    background-color: blue;
   }
   
   .footer_data ul li {
@@ -51,6 +51,89 @@
     margin-bottom: 10px;
     text-align: center;
 
-  }
+  } */
   
-  
+  .footer_outer_container {
+    background-color: #111;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.footer_inner_container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Icons container */
+.footer_icons {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.footer_icons i {
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer_icons i:hover {
+    color: lightgray;
+}
+
+/* Footer Navigation */
+.footer_data {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 0;
+}
+
+.footer_data ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_data ul li {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.footer_data ul li:hover {
+    color: lightgray;
+}
+
+/* Service Code */
+.service_code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.service_code:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Copyright Section */
+.copy-write {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+    opacity: 0.7;
+}
