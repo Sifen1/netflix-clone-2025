@@ -14,7 +14,7 @@ function RowList() {
           <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
           <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
           <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
-          <Row title= "Tv Shows" fetchUrl={requests.fetchTvShows} />
+          <Row title= "tv Shows" fetchUrl={requests.fetchTvShows} />
           
 
     </div>
